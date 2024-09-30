@@ -13,7 +13,7 @@ const ContactSection = () => {
 
           <p className="mt-5 text-primary-300 lg:text-xl text-center">
             My inbox is always open. Whether you have a question or just want to
-            say hello, I'll get back to you! Feel free to mail me about any
+            say hello, I&apos;ll get back to you! Feel free to mail me about any
             relevant job updates.
           </p>
         </div>

@@ -19,7 +19,7 @@ const LandingSection = ({ resumeUrl = "" }) => {
             data-aos-delay="50"
             className="text-white font-display"
           >
-            Hi 👋, I'm {siteConfig.name}
+            Hi 👋, I&apos;m {siteConfig.name}
           </h1>
 
           <h1
