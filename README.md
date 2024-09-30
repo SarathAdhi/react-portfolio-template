@@ -121,7 +121,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3a029bfd-575c-41e5-8249-c864d482c2e5/deploy-status)](https://app.netlify.com/sites/the-simplefolio/deploys)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/react-portfolio-template-sarath)
 
 ## License 📄
 
