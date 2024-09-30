@@ -3,6 +3,7 @@
   "name": "Sarath Adhithya",
   "role": "Software Developer",
   "description": "I'm a software developer who loves to build things for the web.",
+  "ogImage": "/open-graph.png",
   "links": {
     "linkedin": "https://www.linkedin.com/in/sarath-adhithya/",
     "github": "https://github.com/SarathAdhi",
