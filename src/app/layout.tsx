@@ -1,8 +1,16 @@
+import Navbar from "@components/navbar";
+import { cn } from "@utils/cn";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bricolage_Grotesque, DM_Sans } from "next/font/google";
+import AOSInit from "./aos-init";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const dmSans = DM_Sans({ subsets: ["latin"] });
+
+const bricolageGrotesque = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <AOSInit />
+
+      <body className={cn(dmSans.className, bricolageGrotesque.variable)}>
+        <Navbar />
+
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
