@@ -1,5 +1,8 @@
 # Portfolio - NextJS and Sanity ⚡️
 
+![image](https://github.com/user-attachments/assets/20630596-2f59-4933-96a8-1dc05580b064)
+
+
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
