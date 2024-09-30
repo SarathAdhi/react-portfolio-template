@@ -4,7 +4,12 @@
   <p>A portfolio template built with <a href="https://nextjs.org">Next.js</a>, <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://sanity.io">Sanity.io</a> for content</p>
 </div>
 
-![image](https://github.com/user-attachments/assets/20630596-2f59-4933-96a8-1dc05580b064)
+---
+
+[![image](https://github.com/user-attachments/assets/20630596-2f59-4933-96a8-1dc05580b064)](https://react-portfolio-template-sarath.vercel.app/)
+[Visit](https://react-portfolio-template-sarath.vercel.app/)
+
+---
 
 ## Features
 
