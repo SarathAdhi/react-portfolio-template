@@ -1,11 +1,10 @@
 <div align="center"> 
-  <img width="200" alt="sanity" src="[https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/27a0746c-addc-478b-b052-9b3890371036](https://github.com/user-attachments/assets/ec8d166d-c1b4-481d-815a-c5814c258abc)">
+  <img width="200" alt="sanity" src="https://github.com/user-attachments/assets/d21ef065-a8a0-4055-a56c-bf12a2f6d723">
   <h1>Sanity.io + NextJS Portfolio Site</h1>
   <p>A portfolio template built with <a href="https://nextjs.org">Next.js</a>, <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://sanity.io">Sanity.io</a> for content</p>
 </div>
 
 ![image](https://github.com/user-attachments/assets/20630596-2f59-4933-96a8-1dc05580b064)
-
 
 ## Features
 
@@ -76,6 +75,7 @@ $ yarn run dev
 Once your server has started,
 
 Visit http://localhost:3000 to see your site
+
 Visit http://localhost:3000/studio to edit content
 
 ---
