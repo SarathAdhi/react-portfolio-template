@@ -1,5 +1,6 @@
+import siteConfig from "@/site.config.json";
 import { Button } from "@components/ui/button";
-import { Linkedin } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -19,19 +20,35 @@ const ContactSection = () => {
 
         <div className="flex flex-wrap gap-3 mt-12 justify-center">
           <Button size="lg" variant="outline" asChild>
-            <a href="mailto:rishi.r1804@gmail.com" target="_blank">
+            <a href={`mailto:${siteConfig.links.mail}`} target="_blank">
               Drop me a digital pigeon!
             </a>
           </Button>
         </div>
 
-        <div className="flex flex-wrap gap-3 mt-12 justify-center">
+        <div className="flex flex-wrap gap-4 mt-12 justify-center">
           <a
             className="duration-200 hover:opacity-80"
-            href="https://www.linkedin.com/in/rishikeshav1804/"
+            href={siteConfig.links.linkedin}
             target="_blank"
           >
             <Linkedin />
+          </a>
+
+          <a
+            className="duration-200 hover:opacity-80"
+            href={siteConfig.links.github}
+            target="_blank"
+          >
+            <Github />
+          </a>
+
+          <a
+            className="duration-200 hover:opacity-80"
+            href={siteConfig.links.twitter}
+            target="_blank"
+          >
+            <Twitter />
           </a>
         </div>
       </div>

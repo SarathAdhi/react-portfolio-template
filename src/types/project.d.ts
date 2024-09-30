@@ -5,7 +5,7 @@ interface ProjectType {
   starred: boolean;
   title: string;
   overview: string;
-  images: Image[];
+  image: Image;
   techstack: {
     name: string;
     image: string;

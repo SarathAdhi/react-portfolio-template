@@ -10,18 +10,6 @@ export default {
     },
 
     {
-      name: "starred",
-      title: "Starred",
-      type: "boolean",
-    },
-
-    {
-      name: "highlights",
-      title: "Highlights",
-      type: "boolean",
-    },
-
-    {
       name: "title",
       type: "string",
       title: "Title",
@@ -41,10 +29,9 @@ export default {
     },
 
     {
-      name: "images",
-      title: "Images",
-      type: "array",
-      of: [{ type: "image" }],
+      name: "image",
+      title: "Image",
+      type: "image",
     },
 
     {
@@ -71,27 +58,6 @@ export default {
         },
       ],
     },
-
-    // {
-    //   name: 'tc',
-    //   title: 'tc',
-    //   type: 'array',
-    //   of: [
-    //     {
-    //       title: 'fw',
-    //       name: 'fw',
-    //       type: 'object',
-    //       fields: [
-    //         {
-    //           name: 'image',
-    //           title: 'image',
-    //           type: 'string',
-    //           components: {input: TechStackSelectField},
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
 
     {
       name: "github",

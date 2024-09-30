@@ -20,19 +20,19 @@ const ProjectsSection = ({ projects }: Props) => {
 
         <ul role="list" className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-24">
           {projects.map(
-            ({ key, title, overview, images, finishedAt, github }) => (
+            ({ key, title, overview, image, finishedAt, demo, techstack }) => (
               <li key={key}>
                 <figure className="relative h-full rounded-3xl bg-gradient-to-tr from-primary-950 to-primary-700 border border-primary-800 duration-200 hover:shadow-2xl overflow-hidden">
                   <Link
-                    href={github}
-                    className="h-full group flex flex-col justify-between"
+                    href={demo}
+                    className="h-full group flex flex-col"
                     target="_blank"
                   >
                     <Image
                       width={1000}
                       height={1000}
-                      className="w-full h-full object-cover drop-shadow-3xl"
-                      src={urlForImage(images[0])}
+                      className="w-full h-[300px] object-cover object-top drop-shadow-3xl"
+                      src={urlForImage(image)}
                       alt={title}
                     />
 
@@ -41,9 +41,22 @@ const ProjectsSection = ({ projects }: Props) => {
                         {finishedAt}
                       </span>
 
-                      <p className="text-lg font-medium leading-6 text-white">
+                      <h5 className="text-lg font-medium leading-6 text-white">
                         {title}
-                      </p>
+                      </h5>
+
+                      <div className="flex flex-wrap gap-4 items-center">
+                        {techstack.map(({ name, image }) => (
+                          <Image
+                            key={name}
+                            width={20}
+                            height={20}
+                            className="inline-block"
+                            src={image}
+                            alt={name}
+                          />
+                        ))}
+                      </div>
 
                       <p className="text-base text-primary-300">{overview}</p>
                     </blockquote>

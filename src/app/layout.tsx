@@ -1,8 +1,6 @@
-import Navbar from "@components/navbar";
 import { cn } from "@utils/cn";
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, DM_Sans } from "next/font/google";
-import AOSInit from "./aos-init";
 import "./globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
@@ -24,12 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <AOSInit />
-
       <body className={cn(dmSans.className, bricolageGrotesque.variable)}>
-        <Navbar />
-
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );

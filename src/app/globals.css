@@ -42,9 +42,4 @@
   p {
     @apply text-base;
   }
-
-  /* input,
-  textarea {
-    @apply block appearance-none mt-2 bg-primary-900 border border-primary-800 focus:bg-primary-800 focus:border-secondary-300 focus:outline-none focus:ring-secondary-300 placeholder-primary-500 px-3 py-2 rounded-md sm:text-sm text-secondary-300 w-full;
-  } */
 }
