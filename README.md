@@ -1,4 +1,8 @@
-# Portfolio - NextJS and Sanity ⚡️
+<div align="center"> 
+  <img width="200" alt="sanity" src="[https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/27a0746c-addc-478b-b052-9b3890371036](https://github.com/user-attachments/assets/ec8d166d-c1b4-481d-815a-c5814c258abc)">
+  <h1>Sanity.io + NextJS Portfolio Site</h1>
+  <p>A portfolio template built with <a href="https://nextjs.org">Next.js</a>, <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://sanity.io">Sanity.io</a> for content</p>
+</div>
 
 ![image](https://github.com/user-attachments/assets/20630596-2f59-4933-96a8-1dc05580b064)
 
@@ -6,6 +10,7 @@
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
+⚡️ Sanity CMS\
 ⚡️ One Page Layout\
 ⚡️ Styled with Tailwind\
 ⚡️ Fully Responsive\
@@ -68,7 +73,23 @@ $ yarn
 $ yarn run dev
 ```
 
-Once your server has started, go to this url `http://localhost:3000/` to see the portfolio locally. It should look like the below screenshot.
+Once your server has started,
+
+Visit http://localhost:3000 to see your site
+Visit http://localhost:3000/studio to edit content
+
+---
+
+### Important files and folders
+
+| File(s)                                                   | Description                                     |
+| --------------------------------------------------------- | ----------------------------------------------- |
+| [`sanity.config.ts`](sanity.config.ts)                    | Config file for Sanity Studio                   |
+| [`sanity.client.ts`](sanity.cli.ts)             | Config file for Sanity CLI                      |
+| [`studio`](<./src/app/studio/[[...index]]/page.tsx>)      | Where Sanity Studio is mounted                  |
+| [`schemas`](./sanity/schema)                              | Where Sanity Studio gets its content types from |
+| [`sanity.query.ts`](./sanity/lib/api.ts)                  | Where Sanity data is described and retrieved    |
+
 
 ---
 
